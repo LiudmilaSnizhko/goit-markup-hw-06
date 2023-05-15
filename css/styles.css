@@ -24,6 +24,7 @@
   --background-icons-footer: #31d0aa;
   --background-modal-window: #fcfcfc;
   --background-btn-modal: #e7e9fc;
+  --color-modal-label: #8e8f99;
 
   /* Others */
   --modal-index: 100;
@@ -703,6 +704,7 @@ ul {
 }
 .modal {
   position: absolute;
+  padding: 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -748,6 +750,85 @@ ul {
 .modal-close-icon {
   fill: var(--secondary-txt-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-title {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--secondary-txt-color);
+}
+.modal-form {
+}
+.form-label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color-modal-label);
+}
+.form-wrapper {
+  position: relative;
+  margin-bottom: 8px;
+  transition: 200ms;
+}
+
+.form-field {
+  padding: 0;
+  padding-left: 38px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: var(--background-modal-window);
+}
+
+.form-field:focus {
+  outline-color: var(--color-portfolio);
+  background-color: var(--background-modal-window);
+}
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: 200ms;
+  pointer-events: none;
+}
+.form-field:focus + .form-icon {
+  fill: var(--color-portfolio);
+}
+.form-comment {
+  display: block;
+  padding-top: 8px;
+  padding-left: 16px;
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: var(--background-modal-window);
+}
+.form-comment:focus {
+  outline-color: var(--color-portfolio);
+  background-color: var(--background-modal-window);
+}
+
+.form-agreement {
+}
+.form-check-input {
+}
+.form-agreement-text {
+}
+.form-agreement-link {
+}
+.form-btn {
 }
 
 /**
