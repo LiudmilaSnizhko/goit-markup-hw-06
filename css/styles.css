@@ -624,7 +624,7 @@ ul {
   outline-color: var(--light-color);
   background-color: var(--secondary-txt-color);
 }
-::placeholder {
+.footer-field::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -839,7 +839,7 @@ ul {
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--color-modal-label);
 }
@@ -902,7 +902,7 @@ ul {
   outline-color: var(--color-portfolio);
   background-color: var(--background-modal-window);
 }
-::placeholder {
+.form-comment::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
