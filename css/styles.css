@@ -599,7 +599,7 @@ ul {
 }
 
 .footer-form-container {
-  margin-left: 80px;
+  margin-left: auto;
   min-width: 453px;
 }
 
@@ -776,13 +776,12 @@ ul {
 }
 .modal {
   position: absolute;
-  padding: 24px;
+  padding: 72px 24px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   width: 408px;
-  min-height: 576px;
   background-color: var(--background-modal-window);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -826,7 +825,6 @@ ul {
 
 .modal-title {
   display: block;
-  margin-top: 32px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -918,7 +916,6 @@ ul {
 .form-check-input {
   appearance: none;
   display: block;
-  margin-bottom: 24px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -940,7 +937,6 @@ ul {
   border-color: var(--color-portfolio);
 }
 .form-agreement-text {
-  margin-bottom: 24px;
   user-select: none;
   font-size: 12px;
   line-height: 14px;
